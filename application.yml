@@ -5,15 +5,15 @@
 
 ---
 spring:
-  profiles:dev   #开发环境
+  profiles: dev   #开发环境
   application:
-    name:microservicecloud-config-shan-dev
+    name: microservicecloud-config-shan-dev
     
 ---
 spring:
-  profiles:test  #测试环境
+  profiles: test  #测试环境
   application:
-    name:microservicecloud-config-shan-test
+    name: microservicecloud-config-shan-test
  
 # 请以UTF-8的格式保存
   
